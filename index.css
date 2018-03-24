@@ -1,0 +1,85 @@
+.container
+{
+	height: 100%;
+}
+.disp
+{
+	background-image: url("whatsapp.png");
+	margin-bottom: 0VW;
+	height: auto !important;
+	padding: 0;
+
+	}
+
+	.alert {
+   width:35%;   
+
+}
+
+@media (min-width: 923px) 
+{
+.cust
+{
+	display: none;
+}
+}
+@media (max-width: 923px) 
+{
+
+.this
+{
+	display: none;
+}
+}
+
+
+.srch
+{
+	width: 80vw;
+}
+
+
+.activeChat
+{
+	background-color:#E3E4FA;
+	
+}
+col
+{
+	height: 100%;
+}
+li
+{
+	padding-left: 1vw;
+}
+.chat:hover
+{
+background-color:#E3E4FA;
+}
+body
+{
+	overflow: hidden;
+}
+
+.scroll-area{
+  height:calc(100% - 240px);
+ position: relative;
+  
+  overflow-y:scroll;
+}
+.resizing
+{
+	height: 5vh;
+	width: 3vw;
+}
+div {
+  position: relative;
+  
+}
+.inputimage {
+  position: absolute;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
